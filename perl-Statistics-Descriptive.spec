@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Statistics
 %define	pnam	Descriptive
-%include	/usr/lib/rpm/macros.perl
 Summary:	Statistics-Descriptive perl module
 Summary(pl):	Modu³ perla Statistics-Descriptive
 Name:		perl-Statistics-Descriptive
 Version:	2.4
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -25,7 +24,7 @@ Statistics-Descriptive udostêpnia podstawowe funkcje stosowane w
 statystyce opisowej.
 
 %prep
-%setup -q -n Statistics-Descriptive-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 %patch -p0
 
 %build
