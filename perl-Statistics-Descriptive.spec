@@ -14,7 +14,7 @@ Summary(fr):	Module Perl Statistics::Descriptive
 Summary(it):	Modulo di Perl Statistics::Descriptive
 Summary(ja):	Statistics::Descriptive Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Statistics::Descriptive ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Statistics::Descriptive
+Summary(nb):	Perlmodul Statistics::Descriptive
 Summary(pl):	Modu³ perla Statistics::Descriptive
 Summary(pt_BR):	Módulo Perl Statistics::Descriptive
 Summary(pt):	Módulo de Perl Statistics::Descriptive
