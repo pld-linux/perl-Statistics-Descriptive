@@ -4,11 +4,11 @@ Summary(pl):	Modu³ perla Statistics-Descriptive
 Name:		perl-Statistics-Descriptive
 Version:	2.4
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Statistics/Statistics-Descriptive-%{version}.tar.gz
-Patch:		perl-Statistics-Descriptive-fix.patch
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Statistics/Statistics-Descriptive-%{version}.tar.gz
+Patch0:		perl-Statistics-Descriptive-fix.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -16,12 +16,12 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Statistics-Descriptive module provides basic functions used in descriptive
-statistics. 
+Statistics-Descriptive module provides basic functions used in
+descriptive statistics.
 
 %description -l pl
-Statistics-Descriptive udostêpnia podstawowe funkcje stosowane w statystyce
-opisowej.
+Statistics-Descriptive udostêpnia podstawowe funkcje stosowane w
+statystyce opisowej.
 
 %prep
 %setup -q -n Statistics-Descriptive-%{version}
