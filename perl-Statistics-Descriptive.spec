@@ -3,7 +3,7 @@ Summary:	Statistics-Descriptive perl module
 Summary(pl):	Modu³ perla Statistics-Descriptive
 Name:		perl-Statistics-Descriptive
 Version:	2.4
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
