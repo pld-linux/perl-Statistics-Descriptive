@@ -1,3 +1,7 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Statistics
 %define		pnam	Descriptive
@@ -19,8 +23,8 @@ Summary(sv):	Statistics::Descriptive Perlmodul
 Summary(uk):	Модуль для Perl Statistics::Descriptive
 Summary(zh_CN):	Statistics::Descriptive Perl дё©И
 Name:		perl-Statistics-Descriptive
-Version:	2.4
-Release:	10
+Version:	2.6
+Release:	1
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -45,6 +49,7 @@ statystyce opisowej.
 %build
 perl Makefile.PL
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
