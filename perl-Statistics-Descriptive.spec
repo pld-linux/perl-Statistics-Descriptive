@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl Statistics::Descriptive
 Summary(zh_CN):	Statistics::Descriptive Perl дё©И
 Name:		perl-Statistics-Descriptive
 Version:	2.6
-Release:	1
+Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
