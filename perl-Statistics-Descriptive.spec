@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Statistics
-%define	pnam	Descriptive
+%define		pdir	Statistics
+%define		pnam	Descriptive
 Summary:	Statistics::Descriptive Perl module
 Summary(cs):	Modul Statistics::Descriptive pro Perl
 Summary(da):	Perlmodul Statistics::Descriptive
