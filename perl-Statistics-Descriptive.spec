@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Statistics
 %define	pnam	Descriptive
-Summary:	Statistics-Descriptive perl module
-Summary(pl):	Modu³ perla Statistics-Descriptive
+Summary:	Statistics::Descriptive perl module
+Summary(pl):	Modu³ perla Statistics::Descriptive
 Name:		perl-Statistics-Descriptive
 Version:	2.4
 Release:	8
@@ -16,11 +16,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Statistics-Descriptive module provides basic functions used in
+Statistics::Descriptive module provides basic functions used in
 descriptive statistics.
 
 %description -l pl
-Statistics-Descriptive udostêpnia podstawowe funkcje stosowane w
+Statistics::Descriptive udostêpnia podstawowe funkcje stosowane w
 statystyce opisowej.
 
 %prep
