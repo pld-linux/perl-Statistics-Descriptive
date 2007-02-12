@@ -6,22 +6,22 @@
 %define		pdir	Statistics
 %define		pnam	Descriptive
 Summary:	Statistics::Descriptive Perl module
-Summary(cs):	Modul Statistics::Descriptive pro Perl
-Summary(da):	Perlmodul Statistics::Descriptive
-Summary(de):	Statistics::Descriptive Perl Modul
-Summary(es):	MÛdulo de Perl Statistics::Descriptive
-Summary(fr):	Module Perl Statistics::Descriptive
-Summary(it):	Modulo di Perl Statistics::Descriptive
-Summary(ja):	Statistics::Descriptive Perl •‚•∏•Â°º•Î
-Summary(ko):	Statistics::Descriptive ∆ﬁ ∏¡Ÿ
-Summary(nb):	Perlmodul Statistics::Descriptive
-Summary(pl):	Modu≥ perla Statistics::Descriptive
-Summary(pt_BR):	MÛdulo Perl Statistics::Descriptive
-Summary(pt):	MÛdulo de Perl Statistics::Descriptive
-Summary(ru):	Ìœƒ’Ãÿ ƒÃ— Perl Statistics::Descriptive
-Summary(sv):	Statistics::Descriptive Perlmodul
-Summary(uk):	Ìœƒ’Ãÿ ƒÃ— Perl Statistics::Descriptive
-Summary(zh_CN):	Statistics::Descriptive Perl ƒ£øÈ
+Summary(cs.UTF-8):   Modul Statistics::Descriptive pro Perl
+Summary(da.UTF-8):   Perlmodul Statistics::Descriptive
+Summary(de.UTF-8):   Statistics::Descriptive Perl Modul
+Summary(es.UTF-8):   M√≥dulo de Perl Statistics::Descriptive
+Summary(fr.UTF-8):   Module Perl Statistics::Descriptive
+Summary(it.UTF-8):   Modulo di Perl Statistics::Descriptive
+Summary(ja.UTF-8):   Statistics::Descriptive Perl „É¢„Ç∏„É•„Éº„É´
+Summary(ko.UTF-8):   Statistics::Descriptive ÌéÑ Î™®Ï§Ñ
+Summary(nb.UTF-8):   Perlmodul Statistics::Descriptive
+Summary(pl.UTF-8):   Modu≈Ç perla Statistics::Descriptive
+Summary(pt_BR.UTF-8):   M√≥dulo Perl Statistics::Descriptive
+Summary(pt.UTF-8):   M√≥dulo de Perl Statistics::Descriptive
+Summary(ru.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Statistics::Descriptive
+Summary(sv.UTF-8):   Statistics::Descriptive Perlmodul
+Summary(uk.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Statistics::Descriptive
+Summary(zh_CN.UTF-8):   Statistics::Descriptive Perl Ê®°Âùó
 Name:		perl-Statistics-Descriptive
 Version:	2.6
 Release:	3
@@ -40,8 +40,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Statistics::Descriptive module provides basic functions used in
 descriptive statistics.
 
-%description -l pl
-Statistics::Descriptive udostÍpnia podstawowe funkcje stosowane w
+%description -l pl.UTF-8
+Statistics::Descriptive udostƒôpnia podstawowe funkcje stosowane w
 statystyce opisowej.
 
 %prep
