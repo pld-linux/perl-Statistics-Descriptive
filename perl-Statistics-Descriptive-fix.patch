@@ -1,5 +1,5 @@
---- Descriptive.pm~	Tue Apr 27 00:25:26 1999
-+++ Descriptive.pm	Sat Nov  6 17:16:42 1999
+--- lib/Statistics/Descriptive.pm~	Tue Apr 27 00:25:26 1999
++++ lib/Statistics/Descriptive.pm	Sat Nov  6 17:16:42 1999
 @@ -2,7 +2,7 @@
  
  ##This module draws heavily from perltoot v0.4 from Tom Christiansen.
