@@ -23,13 +23,13 @@ Summary(sv.UTF-8):	Statistics::Descriptive Perlmodul
 Summary(uk.UTF-8):	Модуль для Perl Statistics::Descriptive
 Summary(zh_CN.UTF-8):	Statistics::Descriptive Perl 模块
 Name:		perl-Statistics-Descriptive
-Version:	3.0100
+Version:	3.0203
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f05d316c3edf9511f4e24c4b8be336f3
+# Source0-md5:	2595c7c2e32eb33b6e730455a0313516
 Patch0:		%{name}-fix.patch
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
