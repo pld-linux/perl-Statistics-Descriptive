@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Statistics
 %define		pnam	Descriptive
+%include	/usr/lib/rpm/macros.perl
 Summary:	Statistics::Descriptive Perl module
 Summary(cs.UTF-8):	Modul Statistics::Descriptive pro Perl
 Summary(da.UTF-8):	Perlmodul Statistics::Descriptive
@@ -31,6 +31,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2595c7c2e32eb33b6e730455a0313516
 Patch0:		%{name}-fix.patch
+URL:		http://search.cpan.org/dist/Statistics-Descriptive/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
