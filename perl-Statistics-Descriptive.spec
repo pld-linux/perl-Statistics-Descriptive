@@ -4,7 +4,6 @@
 
 %define		pdir	Statistics
 %define		pnam	Descriptive
-%include	/usr/lib/rpm/macros.perl
 Summary:	Statistics::Descriptive Perl module
 Summary(cs.UTF-8):	Modul Statistics::Descriptive pro Perl
 Summary(da.UTF-8):	Perlmodul Statistics::Descriptive
