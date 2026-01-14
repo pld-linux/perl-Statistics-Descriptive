@@ -23,7 +23,7 @@ Summary(uk.UTF-8):	Модуль для Perl Statistics::Descriptive
 Summary(zh_CN.UTF-8):	Statistics::Descriptive Perl 模块
 Name:		perl-Statistics-Descriptive
 Version:	3.0203
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
