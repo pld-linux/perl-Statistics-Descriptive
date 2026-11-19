@@ -22,17 +22,17 @@ Summary(sv.UTF-8):	Statistics::Descriptive Perlmodul
 Summary(uk.UTF-8):	Модуль для Perl Statistics::Descriptive
 Summary(zh_CN.UTF-8):	Statistics::Descriptive Perl 模块
 Name:		perl-Statistics-Descriptive
-Version:	3.0203
-Release:	2
+Version:	3.0801
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	2595c7c2e32eb33b6e730455a0313516
-Patch0:		%{name}-fix.patch
+Source0:	https://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	111c2dc95231843707ce52b1e7f22676
 URL:		http://search.cpan.org/dist/Statistics-Descriptive/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	perl-List-MoreUtils
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -46,7 +46,6 @@ statystyce opisowej.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-%patch -P0 -p0
 
 %build
 %{__perl} Makefile.PL \
@@ -68,4 +67,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_vendorlib}/Statistics/Descriptive.pm
+%{perl_vendorlib}/Statistics/Descriptive
 %{_mandir}/man3/*
